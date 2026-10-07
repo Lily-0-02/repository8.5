@@ -103,7 +103,7 @@ body {
 }
 @media (min-width: 768px) {
   .brand-card {
-    width: 100%;
+    width: 224px;
   }
   .brand-card:nth-child(n + 7) {
     display: none;
@@ -132,7 +132,7 @@ body {
   }
   .swiper-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 224px);
     gap: 16px 24px;
   }
   .swiper-pagination {
